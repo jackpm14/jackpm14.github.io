@@ -74,6 +74,37 @@ body {
     color: var(--muted-color);
 }
 
+.site-footer {
+    background: var(--header-color);
+    color: #fff;
+    padding: 1.5rem 0;
+    text-align: center;
+}
+
+.site-footer nav {
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.site-footer a {
+    color: #fff;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.site-footer a:hover,
+.site-footer a:focus-visible {
+    text-decoration: underline;
+}
+
+.site-footer p {
+    margin: 0;
+    font-size: 0.875rem;
+    color: #d1d5db;
+}
+
 @media (max-width: 600px) {
     .site-header .container {
         flex-direction: column;
