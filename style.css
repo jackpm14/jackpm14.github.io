@@ -241,6 +241,60 @@ body {
     color: var(--text-color);
 }
 
+.resume-block {
+    padding: 1.5rem 0;
+    border-top: 1px solid #e5e7eb;
+}
+
+.resume-block:first-of-type {
+    border-top: none;
+    padding-top: 0;
+}
+
+.resume-block h3 {
+    margin: 0 0 0.75rem;
+}
+
+.resume-item {
+    margin-bottom: 1rem;
+}
+
+.resume-item:last-child {
+    margin-bottom: 0;
+}
+
+/* Title on the left, date on the right */
+.resume-item-header {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+}
+
+.resume-date,
+.resume-sub {
+    font-size: 0.875rem;
+    color: var(--muted-color);
+}
+
+.resume-sub {
+    margin: 0 0 0.5rem;
+}
+
+.skill-label {
+    margin: 1rem 0 0;
+    font-weight: 600;
+    font-size: 0.875rem;
+}
+
+.skill-label:first-of-type {
+    margin-top: 0;
+}
+
+.skill-label + .tags {
+    margin-top: 0.5rem;
+}
+
 @media (max-width: 600px) {
     .site-header .container {
         flex-direction: column;
